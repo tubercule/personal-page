@@ -5,5 +5,27 @@
 header, main, article {
   border: 1px ;
   border-style: solid ;
+  border-color: #bdbdbd;
 }
 /* End of the temporary part */
+body {
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+header {
+  padding: 10px 15px;
+}
+
+header h1 {
+  color: #212121;
+  
+}
+
+main {
+  padding: 10px 15px;
+}
+
+article {
+  padding: 10px 10px;
+}
+
