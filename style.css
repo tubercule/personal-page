@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+
+/* To be remove at the end */
+header, main, article {
+  border: 1px ;
+  border-style: solid ;
+}
+/* End of the temporary part */
