@@ -27,5 +27,14 @@ main {
 
 article {
   padding: 10px 10px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+article header {
+  background-color: #212121;
+  color: #fafafa;
+  font-weight: bold;
+  font-size: 18px;
+}
