@@ -1,8 +1,15 @@
 @charset "UTF-8";
 
+/* CSS Reset, so maybe it's gonna work on every web browser */
+* {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+}
 
 /* To be remove at the end */
-header, main, article {
+ main, article{
   border: 1px ;
   border-style: solid ;
   border-color: #bdbdbd;
@@ -12,29 +19,56 @@ body {
   font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+
+
+/**********************
+****** HEADER *********
+**********************/
 header {
   padding: 10px 15px;
+  width: 1000px;
+  margin: 0 auto 0 auto;
 }
 
 header h1 {
   color: #212121;
-  
+  font-size: 48;
+  max-width: 500px;
+  margin: 0 auto 0 auto;
+  padding: 38px 0 38px 0;
 }
 
+header  img {
+  border-radius: 100%;
+  float: right;
+}
+
+header .profil-pic{
+  width: 200;
+}
+
+/**********************
+****** MAIN *********
+**********************/
 main {
   padding: 10px 15px;
 }
 
-article {
+main article {
   padding: 10px 10px;
   max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto 20px auto;
 }
 
-article header {
+main article header {
   background-color: #212121;
   color: #fafafa;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
+  padding: 3px;
 }
+
+main article p {
+  padding: 4px 0 0 20px;
+}
+
