@@ -1,5 +1,25 @@
 @charset "UTF-8";
 
+@font-face{
+  font-family: 'Raleway';
+  src: url("fonts/Raleway-Medium.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face{
+  font-family: 'Raleway';
+  src: url("fonts/Raleway-Bold.ttf");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face{
+  font-family: 'IndieFlower';
+  src: url("fonts/IndieFlower.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
 /* CSS Reset, so maybe it's gonna work on every web browser */
 * {
 margin: 0;
@@ -11,7 +31,7 @@ font-weight: normal;
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
 }
 
 /**********************
@@ -53,6 +73,11 @@ main {
   max-width: 800px;
   padding: 10px 10px;
   margin: 0 auto 0 auto;
+}
+
+main i {
+  font-family: "IndieFlower";
+  font-size: 70%
 }
 
 main article {
