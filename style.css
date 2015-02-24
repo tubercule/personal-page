@@ -44,7 +44,7 @@ header {
 }
 
 header.title{
-  background-image: url(me.png);
+  background-image: url(images/me.png);
   background-position: right;
   background-size: 200px 200px;
   background-repeat: no-repeat;
