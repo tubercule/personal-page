@@ -53,16 +53,10 @@ header.title{
 header h1 {
   color: #212121;
   font-size: 48px;
-  max-width: 500px;
+  max-width: 470px;
   margin: 0 auto 0 auto;
   padding: 38px 0 38px 0;
 }
-
-/*
-header  img {
-  border-radius: 100%;
-  float: right;
-}*/
 
 
 /**********************
@@ -84,12 +78,12 @@ main article {
   margin: 20px auto 20px auto;
 }
 
-main article header {
+main article h1 {
   background-color: #212121;
   color: #fafafa;
   font-weight: bold;
   font-size: 20px;
-  padding: 3px 3px 3px 15px;
+  padding: 4px 3px 3px 15px;
 }
 
 main article p {
