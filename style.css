@@ -90,6 +90,25 @@ main article p {
   margin: 6px 0 0 40px;
 }
 
+h1 a:link{
+  font-family: "IndieFlower";
+  color: #fafafa;
+  font-size: 70%;
+}
+
+h1 a:visited{
+  font-family: "IndieFlower";
+  color: #bababa;
+  font-size: 70%;
+}
+
+h1 a:hover{
+  font-family: "IndieFlower";
+  color: #bababa;
+  font-size: 70%;
+  text-decoration: none;
+}
+
 /* unvisited link */
 article p a:link {
     color: #0971B2;
