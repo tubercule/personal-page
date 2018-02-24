@@ -113,6 +113,51 @@ h3 {
 	font-size: 27px;
 }
 
-p {
+h4 {
+	font-size: 35px;
+}
+
+p, li {
 	font-size: 30px;
+}
+
+li {
+	margin-left: 30px;
+}
+
+#portrait {
+	float: right;
+	margin-left: 20px;
+}
+
+#logoSFT {
+	width: 150px;
+}
+
+a {
+	color: rgb(255, 255, 255);
+	text-decoration: underline;
+	transition: color 0.5s ease;
+}
+
+a:visited {
+	color: rgb(255, 255, 255);
+}
+
+a:hover{
+	color: #FF7648;
+}
+
+#contact p {
+	padding-left: 30px;
+}
+
+#disclaimer {
+	padding-top: 20px;
+	font-size: 25px;
+	text-align: center;
+}
+
+aside {
+	float: right;
 }
